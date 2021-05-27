@@ -1,0 +1,65 @@
+body {
+  background-color: #c7d5dc;
+  display: flex;
+  justify-content: center;
+  font-family: "Helvetica"
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 0.7;
+  color: #0a1777;
+  margin: 0px;
+}
+
+.container {
+  width: 468px;
+  margin-top: 30px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  width: 456px;
+  height: 456px;
+  background-color: #	;
+  border: 7px solid #3d409d;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.grid div {
+  width: 100px;
+  height: 100px;
+  margin: 7px;
+  border-radius: 3px;
+  background-color: #EEE4DA;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+  line-height: 2.5;
+}
+
+.score-container {
+  text-align: center;
+  width: 90px;
+  height: 60px;
+  border-radius: 3px;
+  background-color: #113b9f;
+  color: #E0FFFF;
+}
+
+#score {
+  font-size: 28px;
+}
+
+.score-title {
+  font-size: 18px;
+}
